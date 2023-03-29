@@ -16,7 +16,7 @@ const Energy = () => {
 
 
                 <div className="main__header-right">
-                    <h4></h4>
+                    {/*<h4></h4>*/ }
                     <h1>Seja bem-vindo a era da energia inteligente</h1>
                     <p> As redes inteligentes são um caminho sem volta, o desenvolvimento e disceminação
                         de dispositivos de medição e monitoramento são as ferramentas para redução de custos,

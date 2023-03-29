@@ -104,7 +104,7 @@ img {
 
 
 section {
-  margin-top: 10rem;
+  /*margin-top: 10rem;*/
   background: var(--bluedark-100);
 }
 
@@ -130,15 +130,16 @@ section {
 
 .card {
   background: var(--bluedark-50);
-  border: 2px solid var(--bluelight);
+  border: 3px solid var(--bluelight);
   text-align: center;
-  padding: 3rem 2rem;
-  /*border-radius: 0 3rem 0 3rem;*/
+  padding: 1rem 1rem;
+  /*3rem 2rem */
+  border-radius: 1rem;
 }
 
 .card span {
-  width: 3rem;
-  height: 3rem;
+  width: 8rem;
+  height: 8rem;
   background: red;
   color: var(--bluelight);
   font-size: 1.5rem;
@@ -148,8 +149,6 @@ section {
   margin-bottom: 1.5rem;
   margin-inline: auto;
   /* border-radius: 1rem;*/
-
-
 }
 
 .card small {

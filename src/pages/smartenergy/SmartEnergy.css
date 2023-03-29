@@ -3,7 +3,7 @@
     width: 100vw;
     height: calc(100vh - 3rem);
     place-items: center;
-    margin-top: 3rem;
+    /* margin-top: 3rem;*/
     background-color: var(--home-bg);
 }
 

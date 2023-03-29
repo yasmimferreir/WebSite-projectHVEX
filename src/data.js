@@ -1,5 +1,6 @@
 import { SiOpenaigym } from "react-icons/si";
 
+
 export const links = [
     { name: "Omni trafo", path: "/" },
     { name: "Sinalizador de faltas", path: "/sinalizadordeFaltas" },
@@ -46,26 +47,28 @@ export const programs = [
 export const values = [
     {
         id: 1,
+
         icon: <SiOpenaigym />,
-        title: "Value One",
+        title: "Sistema de Proteção",
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+        avatar: require("./assets/energy.png")
     },
     {
         id: 2,
         icon: <SiOpenaigym />,
-        title: "Value Two",
+        title: "Integração de dados",
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
     },
     {
         id: 3,
         icon: <SiOpenaigym />,
-        title: "Value Three",
+        title: "Gestão de Ativos Elétricos",
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
     },
     {
         id: 4,
         icon: <SiOpenaigym />,
-        title: "Value Four",
+        title: "Comunicação inteligente",
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
     },
 ];
@@ -73,40 +76,28 @@ export const values = [
 export const faqs = [
     {
         id: 1,
-        question: "How often should I exercise?",
+        question: "Pra que tipo de transformador é feito o medidor inteligente da HVEX (Omni Trafo)?",
         answer:
-            "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!",
+            "O Omni Trafo foi desenvolvido para integrar transformadores de distribuição as redes inteligentes, o dispositivo é ideal para concessionárias, fabricantes de transformadores, ou empresas privadas que desejam ter mais controle e informações de sua rede elétrica.",
     },
     {
         id: 2,
-        question: "What time of day is best to work out?",
+        question: "O Omni trafo pode ser utilizado como um medidor de qualidade de energia (qualimetro)?",
         answer:
-            "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit.",
+            "Não, nesse caso o caso recomendamos a utilização de um modelo específico.",
     },
     {
         id: 3,
-        question: "How long should my workouts be?",
+        question: "O omni trafo pode ser utilizado como um medidor de faturamento?",
         answer:
-            "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "Não, nesse caso não recomendamos o nosso medidor, nesse caso recomendamos modelos especificados pelo módulo do PRODIST e homologados pela concessionária.",
     },
     {
         id: 4,
-        question: "Do I need to warm up before my workouts?",
+        question: "Ele pode ser instalado em transformadores que já estão em campo?",
         answer:
-            "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!",
-    },
-    {
-        id: 5,
-        question: "Should I do strength training, cardio or both?",
-        answer:
-            "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui.",
-    },
-    {
-        id: 6,
-        question: "Should I lift weights for strength training?",
-        answer:
-            "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate.",
-    },
+            "Sim, o dispositivo pode ser instalado em equipamentos em operação, porem a aferição de temperatura do topo de óleo será apenas ambiente.",
+    }
 ];
 
 export const testimonials = [
