@@ -27,9 +27,12 @@ const Values = () => {
 
                     <div className="values__wrapper">
                         {
-                            values.map(({ id, icon, title }) => {
-                                return <Card className="values__value">
-                                    <span className="icon-values">{ icon }</span>
+                            values.map(({ id, title, avatar }) => {
+                                return <Card key={ id } className="values__value">
+                                    <span className="icon-values">
+                                        <img src={ avatar } alt="" />
+                                        {/* { icon }*/ }
+                                    </span>
                                     <h4 className="title-card">{ title }</h4>
                                 </Card>
                             })

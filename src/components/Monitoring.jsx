@@ -15,7 +15,7 @@ const Monitoring = () => {
 
 
                 <div className="main__header-right">
-                    <h1>Omni Trafo</h1>
+                    <h1 className="title-monitory">Omni Trafo</h1>
                     <h4>Monitoramento inteligente de transformadores de distribuição</h4>
                     <p>O Omni trafo é uma solução consolidada para monitoramento de ativos. Através deste equipamento, informações importantes
                         da rede são enviadas em tempo real, permitindo, assim, a admistração remota de dados como:

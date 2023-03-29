@@ -58,18 +58,21 @@ export const values = [
         icon: <SiOpenaigym />,
         title: "Integração de dados",
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+        avatar: require("./assets/integration.png")
     },
     {
         id: 3,
         icon: <SiOpenaigym />,
         title: "Gestão de Ativos Elétricos",
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+        avatar: require("./assets/config.png")
     },
     {
         id: 4,
         icon: <SiOpenaigym />,
         title: "Comunicação inteligente",
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+        avatar: require("./assets/comunication.png")
     },
 ];
 
@@ -100,6 +103,7 @@ export const faqs = [
     }
 ];
 
+/*
 export const testimonials = [
     {
         id: 1,

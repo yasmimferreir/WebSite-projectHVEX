@@ -43,6 +43,7 @@ body {
   margin-inline: auto;
 }
 
+
 h1,
 h2,
 h3,
@@ -129,24 +130,27 @@ section {
 
 
 .card {
-  background: var(--bluedark-50);
+  /*background: green;
+  /* background: var(--bluedark-50);*/
   border: 3px solid var(--bluelight);
   text-align: center;
   padding: 1rem 1rem;
   /*3rem 2rem */
   border-radius: 1rem;
+  /*margin-bottom: 4rem;*/
+
 }
 
 .card span {
-  width: 8rem;
-  height: 8rem;
-  background: red;
+  width: 16rem;
+  height: 10rem;
+  /* background: red;*/
   color: var(--bluelight);
-  font-size: 1.5rem;
-  padding: 0.8rem;
+
+  /*padding: 0.8rem;*/
   display: grid;
   place-items: center;
-  margin-bottom: 1.5rem;
+  /*padding: 1.3rem;*/
   margin-inline: auto;
   /* border-radius: 1rem;*/
 }

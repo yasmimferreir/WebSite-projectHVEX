@@ -4,7 +4,8 @@
     height: calc(100vh - 3rem);
     place-items: center;
     margin-top: 3rem;
-    background-color: var(--home-bg);
+    background-color: var(--bluedark-100);
+    /*#1b2033*/
 }
 
 .main__header-container {
@@ -68,6 +69,9 @@
 
 
 
+
+
+
 /* values */
 
 .values__container {
@@ -82,9 +86,11 @@
     flex-direction: column;
     /*align-items: center;*/
     justify-content: center;
-    margin-top: 13rem;
-    width: 32rem;
+    margin-top: 14rem;
+    width: 33rem;
+    /*32rem */
     padding: 1rem 1rem;
+    /* background: green;
 
 
 
@@ -109,7 +115,7 @@
 }
 
 .values__p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: var(--white);
     font-weight: 400;
 }
@@ -128,16 +134,32 @@
 }
 
 .values__right .icon-values {
-
-    font-size: 7rem;
+    width: 10rem;
+    /*font-size: 7rem;*/
 }
 
 .values__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2.2rem 2.2rem;
+    gap: 2rem 2rem;
     /* 3.4rem 2.4rem*/
+    padding-bottom: 10rem;
 }
+
+
+
+
+
+/* monitoring*/
+.main__header-right .title-monitory {
+    color: #115678;
+}
+
+
+
+
+
+
 
 
 
@@ -153,71 +175,31 @@
 .section__develop {
     background: #f4f4f4;
     margin-top: 0;
-
 }
 
 .section__title-develop {
     margin-bottom: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     color: #1c2c44;
+    font-size: 2rem;
+
 }
 
-.section__develop p {
+.right-r.dev {
+    margin: 0;
+}
+
+.right-r .details-r.develop {
+
+    border-top: 4px solid var(--bluelight);
+    padding-top: 2rem;
+    /*background: #52e0ff;*/
+}
+
+.details-r.develop .icons.develop {
     color: #1c2c44;
+    font-size: 1.3rem;
 }
-
-
-
-/*
-.section__develop-left p {
-    margin: 1rem 0 3.5rem;
-    font-size: 1.1rem;
-    color: var(--white);
-}
-
-
-/*
-.section__develop-containerr {
-    display: grid;
-    height: 100%;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: space-between;
-    gap: 6rem;
-}
-
-.section__develop-left {
-    margin-top: -3rem;
-    /* mover os itens para cima h2
-
-
-.main__header-left h4 {
-    margin-bottom: 1rem;
-    font-weight: 400;
-    color: var(--bluelight);
-}
-
-.section__develop-left p {
-    margin: 1rem 0 3.5rem;
-    font-size: 1.1rem;
-    color: var(--white);
-}
-
-.section__develop-right {
-    display: grid;
-    place-items: center;
-    position: relative;
-}
-
-.section__develop-image {
-    position: relative;
-}
-
-*/
-
-
-
-
 
 
 
@@ -303,3 +285,74 @@
 .main__header-image {
     position: relative;
 }*/
+
+
+
+
+
+
+
+/* questions FAQs*/
+
+
+.faqs {
+    background: var(--white);
+
+}
+
+.faqs__container .title__question {
+    color: var(--bluedark-50);
+    padding-top: 6rem;
+    text-align: center;
+}
+
+.title__question {
+    font-size: 2.2rem;
+}
+
+.faqs__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem 5rem;
+    margin-top: 4rem;
+    /*background: #52e0ff;*/
+}
+
+.faq {
+    /*background: red;*/
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 70%;
+
+}
+
+.faq div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq__icon {
+    background: transparent;
+    color: var(--bluedark-50);
+    font-size: 1.5rem;
+    border: none;
+}
+
+.faq .question_faq {
+    color: var(--bluedark-50);
+    font-size: 1.1rem;
+
+}
+
+.faq p {
+    padding-top: 1rem;
+    border-top: 1.5px solid #d9d9d9;
+    margin-top: 1.2rem;
+    color: #373737;
+    font-weight: 300;
+    font-size: 1.1rem;
+}

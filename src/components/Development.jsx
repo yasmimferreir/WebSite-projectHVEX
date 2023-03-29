@@ -1,4 +1,5 @@
 import ImageSetor from "../assets/setorelétrico.png";
+import { BsCheckCircleFill } from "react-icons/bs"
 
 
 const Development = () => {
@@ -10,12 +11,48 @@ const Development = () => {
                     {/*<h4></h4>*/ }
                     <h1 className="section__title-develop">  Desenvolvido para melhorar a performance dos ativos de distribuição </h1>
 
-                    <p> Tenha acesso a informações em tempo real, administração remota de dados importantes
-                        da rede elétrica como: tensão, corrente, potência passante, energia, temperatura,
-                        sobrecarga entre outros, mapeando seu funcionamento, prevendo a vida útil dos ativos
-                        e aferindo perdas técnicas e não técnicas.
-                    </p>
+
+                    <div className="right-r dev">
+                        <div className="details-r develop">
+                            <div>
+                                <BsCheckCircleFill className="icons develop" />
+                                <span>Balanço energético</span>
+                            </div>
+
+                            <div>
+                                <BsCheckCircleFill className="icons develop" />
+                                <span>Auto-diagnóstico dos transformadores</span>
+                            </div>
+
+                            <div>
+                                <BsCheckCircleFill className="icons develop" />
+                                <span>Medidor ideal para consumidores comerciais industriais</span>
+                            </div>
+
+                            <div>
+                                <BsCheckCircleFill className="icons develop" />
+                                <span>Á prova de fraude </span>
+                            </div>
+
+                            <div>
+                                <BsCheckCircleFill className="icons develop" />
+                                <span>Melhoria dos Indicadores de Continuidade</span>
+                            </div>
+
+                            <div>
+                                <BsCheckCircleFill className="icons develop" />
+                                <span>Maior vida útil do ativo</span>
+                            </div>
+
+                            <div>
+                                <BsCheckCircleFill className="icons develop" />
+                                <span>Acompanhamento em tempo real das condições do equipamento </span>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
+
 
 
                 <div className="main__header-right">
@@ -27,17 +64,8 @@ const Development = () => {
                 </div>
 
             </div>
+
         </section>
-
-
-
-
-
-
-
-
-
-
 
     )
 }
