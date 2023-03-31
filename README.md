@@ -1,70 +1,89 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ProjetoHVEX
 
-## Available Scripts
+### 📑Explicação
 
-In the project directory, you can run:
+Projeto focado nas habilidades Front-end com biblioteca ReactJs, Responsive
 
-### `npm start`
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+• Utilização de ferramentas no Front-end / ***reactJs***:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+npx create-react-app
+```
+<br>
 
-### `npm test`
+```
+npm i react-icons
+```
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm i react-router-dom
+```
+<br>
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🚀 Projeto 
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="https://user-images.githubusercontent.com/97356148/229168046-8220c119-6fcb-4706-af03-090326202866.png" width="695px"> <img src="https://user-images.githubusercontent.com/97356148/229170152-2e7011b5-f92e-4aff-b917-2f94977cf5a9.png" width="300px">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💻 Pré-requisitos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
+* Você instalou a versão mais recente de  NodeJs
+* Você tem uma máquina Windows 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Instalando o projeto 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Para instalar o projeto, siga estas etapas:
 
-## Learn More
+Windows: <br>
+git clone `url`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📫 Contribuindo para o Projeto 
+<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
+Para contribuir com o projeto, siga estas etapas:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b <nome_branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
+5. Crie a solicitação de pull.
 
-### Code Splitting
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Colaboradores
 
-### Analyzing the Bundle Size
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://user-images.githubusercontent.com/97356148/200590856-942d44a8-f136-4320-a381-699ecbc0d6ec.JPG" width="100px;" alt="Foto Yasmim Ferreira Costa"/><br>
+        <sub>
+          <b>Yasmim Ferreira Costa</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 😄 Seja um dos contribuidores<br>
 
-### Advanced Configuration
+Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 Licença
 
-### Deployment
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[⬆ Voltar ao topo](#ProjetoHVEX)<br>
