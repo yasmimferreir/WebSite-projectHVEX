@@ -1,8 +1,5 @@
-//import ProgramsHead from "./ProgramsHead";
-//import { FaQuestion } from "react-icons/fa";
 import { faqs } from "../data";
 import FAQ from "./FAQ";
-
 
 const FAQs = () => {
     return (
@@ -15,9 +12,8 @@ const FAQs = () => {
                     }) }
                 </div>
             </div>
-
         </section>
     )
 }
 
-export default FAQs
+export default FAQs;

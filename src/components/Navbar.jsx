@@ -29,15 +29,14 @@ const Navbar = () => {
                 </ul>
                 <button className="btn">Comprar agora</button>
 
-
                 <button className="nav__toggle-btn" onClick={ () => setIsNavShow(prev => !prev) }>
                     {
                         isNavShow ? <MdOutlineClose /> : <GoThreeBars />
                     }
                 </button>
             </div>
-        </nav >
+        </nav>
     )
 }
 
-export default Navbar
+export default Navbar;

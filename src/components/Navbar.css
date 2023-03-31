@@ -24,6 +24,7 @@ nav {
 
 .logo {
     width: 8rem;
+    display: block;
 }
 
 .nav__links {
@@ -37,8 +38,12 @@ nav {
     transition: var(--transition);
     transition: all 1s;
     box-shadow: rgba(0, 0, 0, 0.5);
+
 }
 
+.nav__links a:hover {
+    color: var(--bluelight);
+}
 
 .active-nav {
     position: relative;
@@ -67,8 +72,6 @@ nav {
     color: var(--white);
     transition: all 1s;
 }
-
-
 
 
 @media screen and (max-width: 1024px) {

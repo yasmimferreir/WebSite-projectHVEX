@@ -1,48 +1,47 @@
-import ImageEnergy from "../assets/bg.png";
 import { BsCheckCircleFill } from "react-icons/bs";
+import AcopImage from "../assets/acopl.webp";
 
-const Energy = () => {
+const CouplerHeader = () => {
     return (
         <section className="main__section">
             <div className="container main__section-container">
                 <div className="main__section-left">
                     <div className="main__section-image">
-                        <img src={ ImageEnergy } alt="image-section" />
+                        <img src={ AcopImage } alt="image-section" />
                     </div>
                 </div>
 
                 <div className="main__header-right">
-                    <h1 className="title-energy">Seja bem-vindo a era da energia inteligente</h1>
-                    <p className="paragrafh-energy"> As redes inteligentes são um caminho sem volta, o desenvolvimento e disceminação
-                        de dispositivos de medição e monitoramento são as ferramentas para redução de custos,
-                        perdas e trazem mais previsibilidade para as utilities de energia.
+                    <h1 className="title-energy">Benefícios de utilizar o  Acoplador DP</h1>
+                    <p className="paragrafh-energy"> O sistema conta com um software especialista para processamento de dados e
+                        gerenciamento da comunicação com outros equipamentos presentes na subestação e sistemas supervisórios.
                     </p>
 
                     <div className="right-r">
                         <div className="details-r">
                             <div>
                                 <BsCheckCircleFill className="icons" />
-                                <span>Monitoramento inteligente de ativos</span>
+                                <span>Projeto e produção 100% brasileira</span>
                             </div>
 
                             <div>
                                 <BsCheckCircleFill className="icons" />
-                                <span>Melhoria dos indicadores de continuidade</span>
+                                <span>Não requer manutenção periódica</span>
                             </div>
 
                             <div>
                                 <BsCheckCircleFill className="icons" />
-                                <span>Comunicação Modular</span>
+                                <span>Dois anos de garantia</span>
                             </div>
 
                             <div>
                                 <BsCheckCircleFill className="icons" />
-                                <span>Business Inteligence</span>
+                                <span>Suporte técnico direto com a HVEX</span>
                             </div>
 
                             <div>
                                 <BsCheckCircleFill className="icons" />
-                                <span>Redução de Perdas técnicas e Não técnicas</span>
+                                <span>Vida útil estimada superior a 10 anos</span>
                             </div>
                         </div>
                     </div>
@@ -52,4 +51,4 @@ const Energy = () => {
     )
 }
 
-export default Energy;
+export default CouplerHeader;

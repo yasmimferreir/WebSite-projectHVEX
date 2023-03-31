@@ -2,7 +2,6 @@ import { AiOutlinePlus } from "react-icons/ai";
 import { RxCaretDown } from "react-icons/rx";
 import { useState } from "react";
 
-
 const FAQ = ({ question, answer }) => {
 
     const [isAnswerShowing, setIsAnswerShowing] = useState(false)

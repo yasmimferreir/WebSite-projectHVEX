@@ -18,23 +18,15 @@
   --bluelight: #00B6DE;
   --bluelight-50: #036FC0;
   --color-primary: hsl(var(--bluedark-100));
-
   --container-width-lg: 80%;
   --container-width-md: 90%;
-
-  transition: all 500s ease;
+  transition: all 500ms ease;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
   line-height: 1.7;
-
-  /* 
-  color: 
-  #252835
-  background: #3d4151;
-  */
 }
 
 .container {
@@ -42,7 +34,6 @@ body {
   max-width: 1920px;
   margin-inline: auto;
 }
-
 
 h1,
 h2,
@@ -71,7 +62,6 @@ img {
   width: 100%;
 }
 
-
 .btn-get {
   color: var(--white);
   width: fit-content;
@@ -90,6 +80,11 @@ img {
   font-weight: 400;
 }
 
+.btn-get.lg:hover {
+  background: var(--bluelight-50);
+  transition: var(--transition);
+}
+
 .btn-get.sm {
   padding: 0.4rem 1.2rem;
   font-size: 0.9rem;
@@ -99,16 +94,9 @@ img {
   background: var(--bluedark-50);
 }
 
-
-
-
-
-
 section {
-  /*margin-top: 10rem;*/
   background: var(--bluedark-100);
 }
-
 
 
 .section__head {
@@ -117,46 +105,48 @@ section {
   gap: 1rem;
 }
 
-/*.section__head span {
-  background: var(--bluelight);
-  padding: 0.8rem;
-  border-radius: 1rem;
-  color: var(--white);
-  font-size: 1.5rem;
-}*/
-
-
-
-
-
 .card {
-  /*background: green;
-  /* background: var(--bluedark-50);*/
   border: 3px solid var(--bluelight);
   text-align: center;
   padding: 1rem 1rem;
-  /*3rem 2rem */
   border-radius: 1rem;
-  /*margin-bottom: 4rem;*/
-
 }
 
 .card span {
-  width: 16rem;
-  height: 10rem;
-  /* background: red;*/
-  color: var(--bluelight);
-
-  /*padding: 0.8rem;*/
   display: grid;
   place-items: center;
-  /*padding: 1.3rem;*/
   margin-inline: auto;
-  /* border-radius: 1rem;*/
+  width: 16rem;
+  height: 10rem;
+  color: var(--bluelight);
 }
 
 .card small {
   margin-top: 1rem;
   display: block;
   font-weight: 300;
+}
+
+
+/* media*/
+@media screen and (max-width: 1024px) {
+
+  .container {
+    width: var(--container-width-md);
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.3;
+  }
 }

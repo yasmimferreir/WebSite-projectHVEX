@@ -1,8 +1,5 @@
-//import ProgramsHeader from "./ProgramsHead";
 import { values } from "../data";
 import Card from "../UI/Card";
-//import { VscCircuitBoard } from "react-icons/vsc"
-
 
 const Values = () => {
     return (
@@ -20,18 +17,13 @@ const Values = () => {
                     </div>
                 </div>
 
-
                 <div className="values__right">
-                    {/*<ProgramsHeader icon={ <VscCircuitBoard /> } title="values"></ProgramsHeader>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, error.</p>*/}
-
                     <div className="values__wrapper">
                         {
                             values.map(({ id, title, avatar }) => {
                                 return <Card key={ id } className="values__value">
                                     <span className="icon-values">
-                                        <img src={ avatar } alt="" />
-                                        {/* { icon }*/ }
+                                        <img src={ avatar } alt="image" />
                                     </span>
                                     <h4 className="title-card">{ title }</h4>
                                 </Card>

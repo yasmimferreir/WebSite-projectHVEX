@@ -1,8 +1,14 @@
-import "./About.css";
+import Flag from "../../components/Flag";
+import FlagHeader from "../../components/FlagHeader";
+import Footer from "../../components/Footer";
 
 const About = () => {
     return (
-        <div>About</div>
+        <>
+            <Flag />
+            <FlagHeader />
+            <Footer />
+        </>
     )
 }
 

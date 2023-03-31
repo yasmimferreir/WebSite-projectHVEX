@@ -1,48 +1,47 @@
-import ImageEnergy from "../assets/bg.png";
 import { BsCheckCircleFill } from "react-icons/bs";
+import FlagImage from "../assets/flag.webp";
 
-const Energy = () => {
+const FlagHeader = () => {
     return (
         <section className="main__section">
             <div className="container main__section-container">
                 <div className="main__section-left">
                     <div className="main__section-image">
-                        <img src={ ImageEnergy } alt="image-section" />
+                        <img src={ FlagImage } alt="image-section" />
                     </div>
                 </div>
 
                 <div className="main__header-right">
-                    <h1 className="title-energy">Seja bem-vindo a era da energia inteligente</h1>
-                    <p className="paragrafh-energy"> As redes inteligentes são um caminho sem volta, o desenvolvimento e disceminação
-                        de dispositivos de medição e monitoramento são as ferramentas para redução de custos,
-                        perdas e trazem mais previsibilidade para as utilities de energia.
+                    <h1 className="title-energy">Benefícios de utilizar o Sinalizador de faltas</h1>
+                    <p className="paragrafh-energy"> Acelera o processo de reestabelecimento de circuitos em falta.
+                        Colabora com iniciativas para redução de DEC em regiões críticas; Garante a qualidade da integração de dados.
                     </p>
 
                     <div className="right-r">
                         <div className="details-r">
                             <div>
                                 <BsCheckCircleFill className="icons" />
-                                <span>Monitoramento inteligente de ativos</span>
+                                <span>Automação das redes</span>
                             </div>
 
                             <div>
                                 <BsCheckCircleFill className="icons" />
-                                <span>Melhoria dos indicadores de continuidade</span>
+                                <span>Implementação de dispositivo IoT</span>
                             </div>
 
                             <div>
                                 <BsCheckCircleFill className="icons" />
-                                <span>Comunicação Modular</span>
+                                <span>Baixo custo de implementação com relação direta para redução de DEC</span>
                             </div>
 
                             <div>
                                 <BsCheckCircleFill className="icons" />
-                                <span>Business Inteligence</span>
+                                <span>Comunicação LoRa / LTE / NB-IoT</span>
                             </div>
 
                             <div>
                                 <BsCheckCircleFill className="icons" />
-                                <span>Redução de Perdas técnicas e Não técnicas</span>
+                                <span>Carregamento automático da bateria por indução</span>
                             </div>
                         </div>
                     </div>
@@ -52,4 +51,4 @@ const Energy = () => {
     )
 }
 
-export default Energy;
+export default FlagHeader;
