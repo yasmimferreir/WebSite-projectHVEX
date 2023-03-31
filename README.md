@@ -28,6 +28,8 @@ npm i react-router-dom
 
 🚀 Projeto 
 <br>
+⚛ Deploy do projeto: https://hvex-home.netlify.app/
+<br>
 
 <img src="https://user-images.githubusercontent.com/97356148/229168046-8220c119-6fcb-4706-af03-090326202866.png" width="695px"> <img src="https://user-images.githubusercontent.com/97356148/229170152-2e7011b5-f92e-4aff-b917-2f94977cf5a9.png" width="300px">
 
